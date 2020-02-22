@@ -1,7 +1,9 @@
 # UHMCyberDefense
 ## Completed so far
+Lorem ipsum...
 
 ## Pending completion
+Lorem ipsum...
 
 ## Contribution by team member
 ### Michael Boyle
