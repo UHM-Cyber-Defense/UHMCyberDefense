@@ -153,6 +153,7 @@ GameObject:
   - component: {fileID: 54074177754501890}
   - component: {fileID: 114186713944424144}
   - component: {fileID: 114534233186909178}
+  - component: {fileID: 5858145907978688630}
   m_Layer: 0
   m_Name: enemyTank
   m_TagString: Untagged
@@ -220,3 +221,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 50
   fireWall: {fileID: 100000, guid: 233b339d4b3d03c49a9637b1e6e3fc07, type: 3}
+--- !u!65 &5858145907978688630
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548981382043570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
