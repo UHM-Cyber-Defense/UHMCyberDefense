@@ -27,22 +27,32 @@
 ## Team members
 ### Michael Boyle
 #### Worked on:
-- 
+* NPC movement
 #### Handling next:
--
+* Spawn system
+* Options
 ### Kenneth Yamaguchi-Townsend 
 #### Worked on:
-- 
+* Placeholder models
+    - Payer ship
+    * NPC ship
+    * Projectile
+    * Firewall
 #### Handling next:
--
+* Collision physics
+* Health system
 ### Joshua Ducey
 #### Worked on:
-- SCM setup
-- README file
+* SCM setup
+* README file
 #### Handling next:
--
+* Projectile effects
+* UI
+* Scoreboard
 ### Pauline Wu
 #### Worked on:
-- 
+* Main Scene
 #### Handling next:
--
+* Main Menu
+* Pause Menu
+
