@@ -25,6 +25,7 @@
 ### Michael Boyle
 #### Worked on:
   * NPC movement
+  * README file
 #### Handling next:
   * Spawn system
   * Options
