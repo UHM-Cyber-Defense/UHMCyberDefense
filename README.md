@@ -9,18 +9,18 @@
  - [x] Projectile physics
  - [x] Main Scene
 ## What is pending:
- - [] NPC movement
- - [] Collision physics
- - [] Projectile effects
- - [] Health system
- - [] Spawn system
- - [] UI
- - [] SFX
- - [] Main Menu
- - [] Pause Menu
- - [] Options
- - [] Scoreboard
- - [] Accounts system
+ - [ ] NPC movement
+ - [ ] Collision physics
+ - [ ] Projectile effects
+ - [ ] Health system
+ - [ ] Spawn system
+ - [ ] UI
+ - [ ] SFX
+ - [ ] Main Menu
+ - [ ] Pause Menu
+ - [ ] Options
+ - [ ] Scoreboard
+ - [ ] Accounts system
 ## Team members
 ### Michael Boyle
 #### Worked on:
