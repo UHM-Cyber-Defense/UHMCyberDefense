@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33132655620006640}
   - component: {fileID: 23528287002990384}
   - component: {fileID: 136782830537395412}
+  - component: {fileID: 114867114113067416}
   m_Layer: 0
   m_Name: enemyTank
   m_TagString: Enemy
@@ -83,6 +84,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1962215332575014}
   m_Mesh: {fileID: 4300000, guid: a8d4ea83dcb645f4f82cb74d98aea230, type: 3}
+--- !u!114 &114867114113067416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1962215332575014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4880ebea754e44cb93785b1ddb0c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tank: {fileID: 0}
 --- !u!136 &136782830537395412
 CapsuleCollider:
   m_ObjectHideFlags: 1
