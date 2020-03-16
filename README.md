@@ -32,7 +32,13 @@
 
 #### Worked on:
 
+- Main Menu
+- Login System
+
 #### Handling next:
+
+- Main Menu
+- Login System
 
 ### Kenneth Yamaguchi-Townsend
 
