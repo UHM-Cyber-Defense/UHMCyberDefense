@@ -32,8 +32,8 @@
 
 #### Worked on:
 
-- Main Menu
-- Login System
+- Main Menu: Outline and working scene change
+- Login System: Text field and variables
 
 #### Handling next:
 
