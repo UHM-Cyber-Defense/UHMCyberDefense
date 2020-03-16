@@ -47,8 +47,14 @@
 - Enemy NPC movement
 - Enemy NPC Spawning
 - Wave System
+- Enemy Shooting
 
 #### Handling next:
+
+- Play Environment
+- UI/HUD
+- Game Over State
+- Not Going Insane from how much it takes to make even a simple game.
 
 ### Joshua Ducey
 
