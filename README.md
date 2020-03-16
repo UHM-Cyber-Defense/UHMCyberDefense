@@ -38,8 +38,9 @@
 
 #### Worked on:
 
--Enemy NPC movement
--Enemy NPC Spawning - Wave System
+- Enemy NPC movement
+- Enemy NPC Spawning 
+- Wave System
 
 #### Handling next:
 
