@@ -72,7 +72,13 @@
 
 #### Worked on:
 
+- Pause Menu
+- README file
+
 #### Handling next:
+
+- Options
+- Scoreboard
 
 ## 02/04/2020 - 02/23/2020
 
@@ -121,8 +127,6 @@
 #### Worked on:
 
 - Main Scene
-- README file
-- Report
 
 #### Handling next:
 
