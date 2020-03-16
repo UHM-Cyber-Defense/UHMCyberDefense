@@ -10,7 +10,7 @@
 - [x] Player movement
 - [x] Projectile physics
 - [x] Main Scene
-- [X] Spawn system
+- [x] Spawn system
 
 ## What is pending:
 
@@ -45,7 +45,7 @@
 #### Worked on:
 
 - Enemy NPC movement
-- Enemy NPC Spawning 
+- Enemy NPC Spawning
 - Wave System
 
 #### Handling next:
@@ -58,6 +58,9 @@
 - README file
 
 #### Handling next:
+
+- UI
+- SFX
 
 ### Pauline Wu
 
