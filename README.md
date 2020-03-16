@@ -121,6 +121,7 @@
 #### Worked on:
 
 - Main Scene
+- README file
 
 #### Handling next:
 
