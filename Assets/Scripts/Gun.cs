@@ -6,7 +6,8 @@ public class Gun : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform launchPosition;
-    public float timeBullet = 0.2f;
+    public float timeBullet = 0.0f;
+    public float timeRefire = 0.3f;
     float timer;
 
     // Update is called once per frame
@@ -17,7 +18,7 @@ public class Gun : MonoBehaviour
         {
             if (!IsInvoking("FireBullet"))
             {
-                InvokeRepeating("FireBullet", timeBullet, 0.1f);
+                InvokeRepeating("FireBullet", timeBullet, timeRefire);
             }
         }
         if (Input.GetMouseButtonUp(0))

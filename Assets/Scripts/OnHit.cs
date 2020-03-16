@@ -33,9 +33,9 @@ public class OnHit : MonoBehaviour {
         {
             //Debug.Log("HIT!");
             Destroy(other.gameObject);
-            score++;
-            SetScore();
             Destroy(gameObject);
+            score++;
+            SetScore(); 
         }
     }
 }

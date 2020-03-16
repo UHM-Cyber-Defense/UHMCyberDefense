@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 72473974}
   wHealth: {fileID: 1729588693}
@@ -279,6 +279,7 @@ MonoBehaviour:
     type: 2}
   launchPosition: {fileID: 1655373376}
   timeBullet: 0.2
+  timeRefire: 0.3
 --- !u!114 &161304731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,6 +295,7 @@ MonoBehaviour:
     type: 2}
   launchPosition: {fileID: 1295748629}
   timeBullet: 0.2
+  timeRefire: 0.3
 --- !u!1 &363492850
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 363492852}
   wHealth: {fileID: 1729588693}
@@ -389,6 +391,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 10756, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 1100050791366126, guid: 866d0501dee6eda4598c788c9a1d9ea8, type: 2}
+      propertyPath: m_TagString
+      value: Firewall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1758463890919984, guid: 866d0501dee6eda4598c788c9a1d9ea8, type: 2}
+      propertyPath: m_TagString
+      value: Firewall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 866d0501dee6eda4598c788c9a1d9ea8, type: 2}
   m_IsPrefabParent: 0
@@ -421,7 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 605276481}
   wHealth: {fileID: 1729588693}
@@ -625,7 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 855856297}
   wHealth: {fileID: 1729588693}
@@ -672,7 +682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 887656935}
   wHealth: {fileID: 1729588693}
@@ -719,7 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1003658989}
   wHealth: {fileID: 1729588693}
@@ -766,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1047266239}
   wHealth: {fileID: 1729588693}
@@ -813,7 +823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1051828654}
   wHealth: {fileID: 1729588693}
@@ -860,7 +870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1264920147}
   wHealth: {fileID: 1729588693}
@@ -907,7 +917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1271224271}
   wHealth: {fileID: 1729588693}
@@ -954,7 +964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1282595673}
   wHealth: {fileID: 1729588693}
@@ -1058,7 +1068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1350054480}
   wHealth: {fileID: 1729588693}
@@ -1292,7 +1302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1419491364}
   wHealth: {fileID: 1729588693}
@@ -1339,7 +1349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1447176702}
   wHealth: {fileID: 1729588693}
@@ -1414,7 +1424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1702692884}
   wHealth: {fileID: 1729588693}
@@ -1467,7 +1477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 1766991363}
   wHealth: {fileID: 1729588693}
@@ -1514,7 +1524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a081bf0fae1710c4985aa177602581de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1962215332575014, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
+  enemyPrefab: {fileID: 1755429458377674, guid: d200dd0c8a22edb4eb59d0b0d42bf1d9,
     type: 2}
   spawnPosition: {fileID: 2075687943}
   wHealth: {fileID: 1729588693}

@@ -22,6 +22,14 @@ public class wallHealth : MonoBehaviour {
     {
         curHealth = curHealth - amount;
     }
+
+    void Death()
+    {
+        if (curHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 	// Update is called once per frame
 	void Update () {
 		
