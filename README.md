@@ -44,6 +44,9 @@
 
 #### Worked on:
 
+- Attack Surface Review
+- README file
+
 #### Handling next:
 
 ### Pauline Wu
