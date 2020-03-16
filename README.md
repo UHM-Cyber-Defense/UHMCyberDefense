@@ -10,6 +10,7 @@
 - [x] Player movement
 - [x] Projectile physics
 - [x] Main Scene
+- [X] Spawn system
 
 ## What is pending:
 
@@ -17,7 +18,6 @@
 - [ ] Collision physics
 - [ ] Projectile effects
 - [ ] Health system
-- [ ] Spawn system
 - [ ] UI
 - [ ] SFX
 - [ ] Main Menu
@@ -37,6 +37,9 @@
 ### Kenneth Yamaguchi-Townsend
 
 #### Worked on:
+
+-Enemy NPC movement
+-Enemy NPC Spawning - Wave System
 
 #### Handling next:
 
