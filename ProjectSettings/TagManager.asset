@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Firewall
+  - ShowOnPause
+  - GameOver
   layers:
   - Default
   - TransparentFX

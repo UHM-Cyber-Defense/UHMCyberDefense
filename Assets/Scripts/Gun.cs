@@ -31,6 +31,9 @@ public class Gun : MonoBehaviour
     {
         GameObject bullet = Instantiate(bulletPrefab) as GameObject;
         bullet.transform.position = launchPosition.position;
-        bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 6000);
+        if (Time.timeScale != 0)
+        {
+            bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 6000);
+        }
     }
 }

@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour {
 
-    public int gunDamage = 1;
+    private WallHealth wHealth;
+    int gunDamage = 1;
     // Use this for initialization
     void Start()
     {
+        GameObject wallObject = GameObject.FindWithTag("Firewall");
+        if (wallObject != null)
+        {
+            wHealth = wallObject.GetComponent<WallHealth>();
+        }
+        if (wHealth == null)
+        {
+            Debug.Log("Cannot find 'WallHealth' script");
+        }
         Destroy(gameObject, 3.0f);
     }
 
@@ -26,10 +36,9 @@ public class EnemyBullet : MonoBehaviour {
     {
         if (other.gameObject.tag == "Firewall")
         {
-            wallHealth health = GetComponent<wallHealth>();
-            if (health != null)
+            if (wHealth != null)
             {
-                health.TakeDamage(gunDamage);
+                wHealth.TakeDamage(gunDamage);
             }
             Destroy(gameObject);
         }
