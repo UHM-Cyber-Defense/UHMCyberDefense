@@ -6,7 +6,6 @@ public class spawnScript : MonoBehaviour {
 
     public GameObject enemyPrefab;
     public Transform spawnPosition;
-    public wallHealth wHealth;
     int enemyCount = 0;
     int enemyTotal = 10;
     float spawnDelay = 200.0f;
@@ -19,10 +18,6 @@ public class spawnScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (wHealth.curHealth <= 0)
-        {
-            return;
-        }
         if (enemyCount >= enemyTotal)
         {
             enemyCount = 0;

@@ -1,31 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class OnHit : MonoBehaviour {
 
-    public int score = 0;
-    public Text scoreText;
+    private PlayerController player1;
+    int scoreValue = 1;
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
+        GameObject playerObject = GameObject.FindWithTag("Player");
+        if (playerObject != null)
+        {
+            player1 = playerObject.GetComponent<PlayerController>();
+        }
+        if (player1 == null)
+        {
+            Debug.Log("Cannot find 'PlayerController' script");
+        }
         Destroy(gameObject, 3.0f);
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
-
-    void Awake()
-    {
-        scoreText = GetComponent<Text>();
-    }
-
-    void SetScore()
-    {
-        scoreText.text = "Score: " + score;
-    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -34,8 +34,7 @@ public class OnHit : MonoBehaviour {
             //Debug.Log("HIT!");
             Destroy(other.gameObject);
             Destroy(gameObject);
-            score++;
-            SetScore(); 
+            player1.SetScore(scoreValue);
         }
     }
 }

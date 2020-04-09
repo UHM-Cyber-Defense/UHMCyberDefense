@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class playerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
     float speed = 100;
+    public int score;
+    public Text scoreText;
 
     // Use this for initialization
     void Start()
      {
-
+        score = 0;
+        UpdateScore();
      }
 
     private void FixedUpdate()
@@ -18,6 +22,17 @@ public class playerController : MonoBehaviour {
     }
     void Update()
     {
+
+    }
+    public void SetScore(int scoreValue)
+    {
+        score += scoreValue;
+        UpdateScore();
+    }
+
+    void UpdateScore()
+    {
+        scoreText.text = "Score: " + score;
     }
 }
 

@@ -10,7 +10,7 @@
 - [x] Player movement
 - [x] Projectile physics
 - [x] Main Scene
-- [X] Spawn system
+- [x] Spawn system
 
 ## What is pending:
 
@@ -32,8 +32,8 @@
 
 #### Worked on:
 
-- Main Menu
-- Login System
+- Main Menu: Outline and working scene change
+- Login System: Text field and variables
 
 #### Handling next:
 
@@ -45,10 +45,16 @@
 #### Worked on:
 
 - Enemy NPC movement
-- Enemy NPC Spawning 
+- Enemy NPC Spawning
 - Wave System
+- Enemy Shooting
 
 #### Handling next:
+
+- Play Environment
+- UI/HUD
+- Game Over State
+- Not Going Insane from how much it takes to make even a simple game.
 
 ### Joshua Ducey
 
@@ -59,11 +65,20 @@
 
 #### Handling next:
 
+- UI
+- SFX
+
 ### Pauline Wu
 
 #### Worked on:
 
+- Pause Menu
+- README file
+
 #### Handling next:
+
+- Options
+- Scoreboard
 
 ## 02/04/2020 - 02/23/2020
 

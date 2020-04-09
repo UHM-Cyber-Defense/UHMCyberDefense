@@ -1,37 +1,59 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class wallHealth : MonoBehaviour {
+public class WallHealth : MonoBehaviour {
 
     public GameObject fireWall;
-    public int startingHealth = 1000;
-    public int curHealth;
+    public int Health;
+    public Text healthText;
+    GameObject[] GameOverObjects;
+    // Use this for initialization
+    void Start () {
+        Health = 500;
+        UpdateHealth();
+        GameOverObjects = GameObject.FindGameObjectsWithTag("GameOver");
+        HideGameOver();
+    }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-    void Awake()
+    void Update()
     {
-        curHealth = startingHealth;
+        if (Health <= 0)
+        {
+            Destroy(gameObject);
+            if (Time.timeScale == 1)
+            {
+                Time.timeScale = 0;
+                ShowGameOver();
+            }
+        }
+    }
+
+    public void ShowGameOver()
+    {
+        foreach (GameObject g in GameOverObjects)
+        {
+            g.SetActive(true);
+        }
+    }
+
+    public void HideGameOver()
+    {
+        foreach (GameObject g in GameOverObjects)
+        {
+            g.SetActive(false);
+        }
     }
 
     public void TakeDamage(int amount)
     {
-        curHealth = curHealth - amount;
+        Health = Health - amount;
+        UpdateHealth();
     }
 
-    void Death()
+    void UpdateHealth()
     {
-        if (curHealth <= 0)
-        {
-            Destroy(gameObject);
-        }
+        healthText.text = "Firewall: " + Health;
     }
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

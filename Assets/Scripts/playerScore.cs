@@ -4,14 +4,22 @@ using UnityEngine;
 
 public class playerScore : MonoBehaviour {
 
-    public int score = 0;
+    public static int score;
     public Text scoreText;
-	// Use this for initialization
-	void Awake () {
-        scoreText = GetComponent<Text>();
-	}
+    // Use this for initialization
+
+    private void Start()
+    {
+        score = 0;
+    }
 	
-    void SetScore ()
+    public void SetScore (int scoreValue)
+    {
+        score += scoreValue;
+        UpdateScore();
+    }
+
+    void UpdateScore ()
     {
         scoreText.text = "Score: " + score;
     }
