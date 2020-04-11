@@ -1546,9 +1546,16 @@ GameObject:
   m_Component:
   - component: {fileID: 1042526920}
   - component: {fileID: 1042526921}
+<<<<<<< Updated upstream
   m_Layer: 0
   m_Name: PauseUI
   m_TagString: Untagged
+=======
+  - component: {fileID: 1042526922}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1577,6 +1584,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dcc769405992424ca608697d0fc057c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1042526922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1042526919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5512883da8b0f5b4c9a8652415eb0ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!1 &1047266237
 GameObject:
   m_ObjectHideFlags: 0
