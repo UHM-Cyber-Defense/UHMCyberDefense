@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
+using System;
+using System.Security.Cryptography;
+using System.Text;
 
 public class LoginPlayer : MonoBehaviour {
 
@@ -11,8 +14,6 @@ public class LoginPlayer : MonoBehaviour {
     public InputField passwordField;
     public Text errorText;
     public static string savedUser;
-    private string userExists;
-    private string savedPassword;
 
     public void LoginUser(string sceneName)
     {
@@ -32,10 +33,16 @@ public class LoginPlayer : MonoBehaviour {
                 //Find User
                 if (line == "Ux" + nameField.text)
                 {
-                    //Debug.Log(lines[i]);
+                    Debug.Log(lines[i]);
                     //Check next line for password
                     //Current line is i - 1, next line is i
-                    if (lines[i] == "Px" + passwordField.text)
+                    string hashedPassword;
+                    using (SHA256 sha256Hash = SHA256.Create())
+                    {
+                        hashedPassword = GetHash(sha256Hash, passwordField.text);
+                        Debug.Log("Px" + hashedPassword);
+                    }
+                    if (lines[i] == "Px" + hashedPassword)
                     {
                         savedUser = nameField.text;
                         //Load Main Menu
@@ -52,5 +59,26 @@ public class LoginPlayer : MonoBehaviour {
             //User not found
             errorText.text = "Invalid User";
         }
+    }
+
+    private static string GetHash(HashAlgorithm hashAlgorithm, string input)
+    {
+
+        // Convert the input string to a byte array and compute the hash.
+        byte[] data = hashAlgorithm.ComputeHash(Encoding.UTF8.GetBytes(input));
+
+        // Create a new Stringbuilder to collect the bytes
+        // and create a string.
+        var sBuilder = new StringBuilder();
+
+        // Loop through each byte of the hashed data 
+        // and format each one as a hexadecimal string.
+        for (int i = 0; i < data.Length; i++)
+        {
+            sBuilder.Append(data[i].ToString("x2"));
+        }
+
+        // Return the hexadecimal string.
+        return sBuilder.ToString();
     }
 }
