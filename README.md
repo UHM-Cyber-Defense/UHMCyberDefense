@@ -50,9 +50,9 @@ If time allows
 
 #### Worked on:
 
-- Full Menu Implementation
-- Basic User Account System
-- Scoreboard Saving
+- Full Menu Implementation (Back End)
+- Basic User Account System (Back End)
+- Scoreboard Saving (Back End)
 
 #### Handling next:
 
