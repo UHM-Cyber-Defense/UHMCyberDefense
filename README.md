@@ -39,7 +39,7 @@ If time allows
 
 #### Worked on:
 
-- Began User Data Encryption
+- Begin User Data Encryption
 - Fuzz Testing
 - Report
 
