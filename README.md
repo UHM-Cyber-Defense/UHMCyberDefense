@@ -27,12 +27,13 @@
 - [ ] Improved File Security
 
 If time allows
+
 - [ ] UI/HUD Improvements
 - [ ] Projectile effects
 - [ ] SFX
 - [ ] Options
 
-## 02/25/2020 - 03/15/2020
+## 03/15/2020 - 04/12/2020
 
 ### Michael Boyle
 
@@ -64,9 +65,13 @@ If time allows
 
 #### Worked on:
 
+- Static Analysis
 - Report
 
 #### Handling next:
+
+- Projectile effects
+- SFX
 
 ### Pauline Wu
 
