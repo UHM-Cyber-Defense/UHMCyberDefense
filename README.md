@@ -11,20 +11,73 @@
 - [x] Projectile physics
 - [x] Main Scene
 - [x] Spawn system
+- [x] NPC movement
+- [x] Collision physics
+- [x] Health system
+- [x] UI
+- [x] Main Menu
+- [x] Pause Menu
+- [x] Accounts system
+- [x] Scoreboard Saving
 
 ## What is pending:
 
-- [ ] NPC movement
-- [ ] Collision physics
+- [ ] Ingame Scoreboard
+- [ ] Input Validation
+- [ ] Improved File Security
+
+If time allows
+- [ ] UI/HUD Improvements
 - [ ] Projectile effects
-- [ ] Health system
-- [ ] UI
 - [ ] SFX
-- [ ] Main Menu
-- [ ] Pause Menu
 - [ ] Options
-- [ ] Scoreboard
-- [ ] Accounts system
+
+## 02/25/2020 - 03/15/2020
+
+### Michael Boyle
+
+#### Worked on:
+
+- Began User Data Encryption
+- Fuzz Testing
+- Report
+
+#### Handling next:
+
+- Improved File Security
+
+### Kenneth Yamaguchi-Townsend
+
+#### Worked on:
+
+- Full Menu Implementation
+- Basic User Account System
+- Scoreboard Saving
+
+#### Handling next:
+
+- Increased Validation Checks
+- Ingame Scoreboard
+- UI/HUD Improvements
+
+### Joshua Ducey
+
+#### Worked on:
+
+- Report
+
+#### Handling next:
+
+### Pauline Wu
+
+#### Worked on:
+
+- Fuzz Testing
+- Report
+
+#### Handling next:
+
+- Improved File Security
 
 ## 02/25/2020 - 03/15/2020
 
