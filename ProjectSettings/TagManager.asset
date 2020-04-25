@@ -9,6 +9,11 @@ TagManager:
   - ShowOnPause
   - GameOver
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - GameManager
+  - SBManager
+>>>>>>> Stashed changes
 =======
   - GameManager
   - SBManager

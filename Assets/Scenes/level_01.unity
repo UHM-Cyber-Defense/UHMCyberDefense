@@ -1547,14 +1547,20 @@ GameObject:
   - component: {fileID: 1042526920}
   - component: {fileID: 1042526921}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Layer: 0
   m_Name: PauseUI
   m_TagString: Untagged
 =======
+=======
+>>>>>>> Stashed changes
   - component: {fileID: 1042526922}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1585,7 +1591,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!114 &1042526922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1597,6 +1606,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5512883da8b0f5b4c9a8652415eb0ed8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1047266237
 GameObject:

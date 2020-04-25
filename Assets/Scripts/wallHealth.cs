@@ -9,10 +9,13 @@ public class WallHealth : MonoBehaviour {
     public int Health;
     public Text healthText;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     GameObject[] GameOverObjects;
     // Use this for initialization
     void Start () {
 =======
+=======
+>>>>>>> Stashed changes
     private ScoreBoard gManager;
     GameObject[] GameOverObjects;
     // Use this for initialization
@@ -26,6 +29,9 @@ public class WallHealth : MonoBehaviour {
         {
             Debug.Log("Cannot find 'ScoreBoard' script");
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         Health = 500;
         UpdateHealth();
@@ -42,6 +48,10 @@ public class WallHealth : MonoBehaviour {
             {
                 Time.timeScale = 0;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+                gManager.SaveScoreboard();
+>>>>>>> Stashed changes
 =======
                 gManager.SaveScoreboard();
 >>>>>>> Stashed changes

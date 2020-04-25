@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ExitOnClick : MonoBehaviour {
 
+<<<<<<< Updated upstream
 	// Use this for initialization
 	void Start () {
 		
@@ -14,6 +15,8 @@ public class ExitOnClick : MonoBehaviour {
 		
 	}
 
+=======
+>>>>>>> Stashed changes
     public void ExitGame()
     {
         Application.Quit();

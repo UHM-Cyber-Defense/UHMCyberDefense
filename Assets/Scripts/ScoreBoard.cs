@@ -1,6 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+using System.Text.RegularExpressions;
+>>>>>>> Stashed changes
 =======
 using System.Text.RegularExpressions;
 >>>>>>> Stashed changes
@@ -15,6 +19,7 @@ using UnityEngine.SceneManagement;
 public class ScoreBoard : MonoBehaviour {
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public string userScore;
     int scoreVal;
     int tempVal;
@@ -23,6 +28,8 @@ public class ScoreBoard : MonoBehaviour {
 		
 	}
 =======
+=======
+>>>>>>> Stashed changes
     private PlayerController player1;
     string userScore;
     string tempScore;
@@ -41,6 +48,7 @@ public class ScoreBoard : MonoBehaviour {
             Debug.Log("Cannot find 'PlayerController' script");
         }
     }
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 	
 	// Update is called once per frame
@@ -53,6 +61,10 @@ public class ScoreBoard : MonoBehaviour {
 =======
     public void SaveScoreboard()
 >>>>>>> Stashed changes
+=======
+	
+    public void SaveScoreboard()
+>>>>>>> Stashed changes
     {
         if (File.Exists(Application.persistentDataPath + "/Scoreboard.dat"))
         {
@@ -60,6 +72,7 @@ public class ScoreBoard : MonoBehaviour {
                        + "/Scoreboard.dat";
             int i = 0;
             string tempScore;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             string[] trimScore;
             //Read file into string array
@@ -81,11 +94,18 @@ public class ScoreBoard : MonoBehaviour {
             }
             File.AppendAllText(path, "\n" + userScore);
 =======
+=======
+>>>>>>> Stashed changes
             //Read file into string array
             string[] lines = File.ReadAllLines(path);
             userScore = player1.score.ToString() + " " + LoginPlayer.savedUser ;
             //Debug.Log("userScore is: " + userScore);
             tempVal = player1.score;
+<<<<<<< Updated upstream
+=======
+            //This foreach loops goes through and sorts our new
+            //score into the scoreboard
+>>>>>>> Stashed changes
             foreach (string line in lines)
             {
                 //trimScore = line.Split(new char[] { ' ' });
@@ -110,6 +130,9 @@ public class ScoreBoard : MonoBehaviour {
             file.Close();
             //Debug.Log("userScore is: " + userScore);
             File.AppendAllText(path, userScore);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
         else
@@ -120,6 +143,7 @@ public class ScoreBoard : MonoBehaviour {
             file.Close();
         }
     }
+<<<<<<< Updated upstream
 
     public void LoadScoreboard()
     {
@@ -142,5 +166,7 @@ public class ScoreBoard : MonoBehaviour {
             SBText.text = scoreBoard;
         }
     }
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

@@ -20,12 +20,15 @@ public class OnHit : MonoBehaviour {
         }
         Destroy(gameObject, 3.0f);
     }
+<<<<<<< Updated upstream
 	
 	// Update is called once per frame
 	void Update ()
     {
 		
 	}
+=======
+>>>>>>> Stashed changes
 
     private void OnTriggerEnter(Collider other)
     {

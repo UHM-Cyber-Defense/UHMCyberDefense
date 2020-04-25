@@ -10,7 +10,10 @@ public class MainMenu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         playerText.text = "Player: " + LoginPlayer.savedUser;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     }
 	
 	// Update is called once per frame
