@@ -12,25 +12,22 @@
 - [x] Main Scene
 - [x] Spawn system
 - [x] NPC movement
-- [x] Collision physics
 - [x] Health system
 - [x] UI
 - [x] Main Menu
 - [x] Pause Menu
+- [x] Scoreboard
 - [x] Accounts system
-- [x] Scoreboard Saving
+- [x] SFX
 
 ## What is pending:
 
-- [ ] Ingame Scoreboard
 - [ ] Input Validation
 - [ ] Improved File Security
 
 If time allows
 
-- [ ] UI/HUD Improvements
 - [ ] Projectile effects
-- [ ] SFX
 - [ ] Options
 
 ## 03/15/2020 - 04/12/2020

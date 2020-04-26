@@ -8,7 +8,6 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 
-
 public class CreateUser : MonoBehaviour {
 
     public InputField nameField;

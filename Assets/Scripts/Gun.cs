@@ -6,9 +6,17 @@ public class Gun : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform launchPosition;
+    public AudioClip blasterSound;
     public float timeBullet = 0.0f;
     public float timeRefire = 0.3f;
     float timer;
+    AudioSource audio;
+
+    // Use this for initialization
+    void Start()
+    {
+        audio = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -35,5 +43,10 @@ public class Gun : MonoBehaviour
         {
             bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 6000);
         }
+<<<<<<< Updated upstream
+=======
+        audio.clip = blasterSound;
+        audio.Play();
+>>>>>>> Stashed changes
     }
 }

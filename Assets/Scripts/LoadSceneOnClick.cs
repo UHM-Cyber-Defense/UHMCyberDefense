@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LoadSceneOnClick : MonoBehaviour {
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	// Use this for initialization
 	void Start () {
 		
@@ -15,6 +17,10 @@ public class LoadSceneOnClick : MonoBehaviour {
 		
 	}
 
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);

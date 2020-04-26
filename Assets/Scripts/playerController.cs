@@ -20,8 +20,17 @@ public class PlayerController : MonoBehaviour {
         Vector3 dirVector = new Vector3(Input.GetAxis("Horizontal"), 0/*, Input.GetAxis("Vertical")*/).normalized;
         GetComponent<Rigidbody>().MovePosition(transform.position + dirVector * Time.deltaTime * speed);
     }
-    void Update()
+
+    public void SetScore(int scoreValue)
     {
+        score += scoreValue;
+        UpdateScore();
+    }
+
+    void UpdateScore()
+<<<<<<< Updated upstream
+    {
+<<<<<<< Updated upstream
 
     }
     public void SetScore(int scoreValue)
@@ -32,6 +41,11 @@ public class PlayerController : MonoBehaviour {
 
     void UpdateScore()
     {
+=======
+>>>>>>> Stashed changes
+=======
+    {
+>>>>>>> Stashed changes
         scoreText.text = "Score: " + score;
     }
 }

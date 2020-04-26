@@ -5,10 +5,20 @@ using UnityEngine;
 public class EnemyBullet : MonoBehaviour {
 
     private WallHealth wHealth;
+<<<<<<< Updated upstream
     int gunDamage = 1;
     // Use this for initialization
     void Start()
     {
+=======
+    public AudioClip wallImpact;
+    int gunDamage = 1;
+    AudioSource audio;
+    // Use this for initialization
+    void Start()
+    {
+        audio = GetComponent<AudioSource>();
+>>>>>>> Stashed changes
         GameObject wallObject = GameObject.FindWithTag("Firewall");
         if (wallObject != null)
         {
@@ -41,6 +51,8 @@ public class EnemyBullet : MonoBehaviour {
                 wHealth.TakeDamage(gunDamage);
             }
             Destroy(gameObject);
+            audio.clip = wallImpact;
+            audio.Play();
         }
     }
 }
