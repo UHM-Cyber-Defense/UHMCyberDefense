@@ -11,20 +11,21 @@
 - [x] Projectile physics
 - [x] Main Scene
 - [x] Spawn system
+- [x] NPC movement
+- [x] Health system
+- [x] UI
+- [x] Main Menu
+- [x] Pause Menu
+- [x] Scoreboard
+- [x] Accounts system
+- [x] SFX
 
 ## What is pending:
 
-- [ ] NPC movement
 - [ ] Collision physics
 - [ ] Projectile effects
-- [ ] Health system
-- [ ] UI
-- [ ] SFX
-- [ ] Main Menu
-- [ ] Pause Menu
 - [ ] Options
-- [ ] Scoreboard
-- [ ] Accounts system
+
 
 ## 02/25/2020 - 03/15/2020
 
