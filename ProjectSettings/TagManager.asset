@@ -10,6 +10,11 @@ TagManager:
   - GameOver
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - GameManager
+  - SBManager
+>>>>>>> Stashed changes
 =======
   - GameManager
   - SBManager

@@ -8,7 +8,7 @@ public class spawnScript : MonoBehaviour {
     public Transform spawnPosition;
     int enemyCount = 0;
     int enemyTotal = 10;
-    float spawnDelay = 200.0f;
+    float spawnDelay = 800.0f;
     float timer = 0;
 	
 	// Update is called once per frame

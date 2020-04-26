@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     void UpdateScore()
+<<<<<<< Updated upstream
     {
 <<<<<<< Updated upstream
 
@@ -41,6 +42,9 @@ public class PlayerController : MonoBehaviour {
     void UpdateScore()
     {
 =======
+>>>>>>> Stashed changes
+=======
+    {
 >>>>>>> Stashed changes
         scoreText.text = "Score: " + score;
     }

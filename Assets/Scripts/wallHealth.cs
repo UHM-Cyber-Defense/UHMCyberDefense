@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class WallHealth : MonoBehaviour {
 
     public GameObject fireWall;
+<<<<<<< Updated upstream
     public int Health;
     public Text healthText;
 <<<<<<< Updated upstream
@@ -15,6 +16,10 @@ public class WallHealth : MonoBehaviour {
     void Start () {
 =======
 =======
+>>>>>>> Stashed changes
+=======
+    public Slider healthBar;
+    public static int Health;
 >>>>>>> Stashed changes
     private ScoreBoard gManager;
     GameObject[] GameOverObjects;
@@ -30,6 +35,9 @@ public class WallHealth : MonoBehaviour {
             Debug.Log("Cannot find 'ScoreBoard' script");
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -41,6 +49,10 @@ public class WallHealth : MonoBehaviour {
 
     void Update()
     {
+<<<<<<< Updated upstream
+=======
+        healthBar.value = Health;
+>>>>>>> Stashed changes
         if (Health <= 0)
         {
             Destroy(gameObject);
@@ -49,6 +61,10 @@ public class WallHealth : MonoBehaviour {
                 Time.timeScale = 0;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+                gManager.SaveScoreboard();
+>>>>>>> Stashed changes
 =======
                 gManager.SaveScoreboard();
 >>>>>>> Stashed changes
@@ -84,6 +100,10 @@ public class WallHealth : MonoBehaviour {
 
     void UpdateHealth()
     {
+<<<<<<< Updated upstream
         healthText.text = "Firewall: " + Health;
+=======
+        healthBar.value = Health;
+>>>>>>> Stashed changes
     }
 }

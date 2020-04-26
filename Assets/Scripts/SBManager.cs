@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 using UnityEngine;
 
 public class SBManager : MonoBehaviour {
@@ -25,6 +26,8 @@ public class SBManager : MonoBehaviour {
 		
 	}
 =======
+=======
+>>>>>>> Stashed changes
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
@@ -73,5 +76,8 @@ public class SBManager : MonoBehaviour {
             SBScoreText.text = scoreScore;
         }
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+using System.Text.RegularExpressions;
+>>>>>>> Stashed changes
 =======
 using System.Text.RegularExpressions;
 >>>>>>> Stashed changes
@@ -20,6 +24,7 @@ public class ScoreBoard : MonoBehaviour {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public string userScore;
     int scoreVal;
     int tempVal;
@@ -28,6 +33,8 @@ public class ScoreBoard : MonoBehaviour {
 		
 	}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     private PlayerController player1;
@@ -49,6 +56,7 @@ public class ScoreBoard : MonoBehaviour {
         }
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 	
 	// Update is called once per frame
@@ -65,6 +73,10 @@ public class ScoreBoard : MonoBehaviour {
 	
     public void SaveScoreboard()
 >>>>>>> Stashed changes
+=======
+	
+    public void SaveScoreboard()
+>>>>>>> Stashed changes
     {
         if (File.Exists(Application.persistentDataPath + "/Scoreboard.dat"))
         {
@@ -72,6 +84,7 @@ public class ScoreBoard : MonoBehaviour {
                        + "/Scoreboard.dat";
             int i = 0;
             string tempScore;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
             string[] trimScore;
@@ -96,12 +109,19 @@ public class ScoreBoard : MonoBehaviour {
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
             //Read file into string array
             string[] lines = File.ReadAllLines(path);
             userScore = player1.score.ToString() + " " + LoginPlayer.savedUser ;
             //Debug.Log("userScore is: " + userScore);
             tempVal = player1.score;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+            //This foreach loops goes through and sorts our new
+            //score into the scoreboard
+>>>>>>> Stashed changes
 =======
             //This foreach loops goes through and sorts our new
             //score into the scoreboard
@@ -131,6 +151,9 @@ public class ScoreBoard : MonoBehaviour {
             //Debug.Log("userScore is: " + userScore);
             File.AppendAllText(path, userScore);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -143,6 +166,7 @@ public class ScoreBoard : MonoBehaviour {
             file.Close();
         }
     }
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
     public void LoadScoreboard()
@@ -166,6 +190,8 @@ public class ScoreBoard : MonoBehaviour {
             SBText.text = scoreBoard;
         }
     }
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

@@ -11,7 +11,10 @@ public class MainMenu : MonoBehaviour {
 	void Start () {
         playerText.text = "Player: " + LoginPlayer.savedUser;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     }
