@@ -4,18 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 using System;
 using System.Security.Cryptography;
 using System.Text;
->>>>>>> Stashed changes
-=======
-using System;
-using System.Security.Cryptography;
-using System.Text;
->>>>>>> Stashed changes
 
 public class LoginPlayer : MonoBehaviour {
 
@@ -23,14 +14,6 @@ public class LoginPlayer : MonoBehaviour {
     public InputField passwordField;
     public Text errorText;
     public static string savedUser;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    private string userExists;
-    private string savedPassword;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
     public void LoginUser(string sceneName)
     {
@@ -50,15 +33,10 @@ public class LoginPlayer : MonoBehaviour {
                 //Find User
                 if (line == "Ux" + nameField.text)
                 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
                     //Debug.Log(lines[i]);
                     //Check next line for password
                     //Current line is i - 1, next line is i
                     if (lines[i] == "Px" + passwordField.text)
-=======
-=======
->>>>>>> Stashed changes
                     Debug.Log(lines[i]);
                     //Check next line for password
                     //Current line is i - 1, next line is i
@@ -69,10 +47,6 @@ public class LoginPlayer : MonoBehaviour {
                         Debug.Log("Px" + hashedPassword);
                     }
                     if (lines[i] == "Px" + hashedPassword)
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                     {
                         savedUser = nameField.text;
                         //Load Main Menu
@@ -90,11 +64,6 @@ public class LoginPlayer : MonoBehaviour {
             errorText.text = "Invalid User";
         }
     }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 
     private static string GetHash(HashAlgorithm hashAlgorithm, string input)
     {
@@ -116,8 +85,4 @@ public class LoginPlayer : MonoBehaviour {
         // Return the hexadecimal string.
         return sBuilder.ToString();
     }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }

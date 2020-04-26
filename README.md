@@ -22,10 +22,64 @@
 
 ## What is pending:
 
-- [ ] Collision physics
+- [ ] Input Validation
+- [ ] Improved File Security
+
+If time allows
+
 - [ ] Projectile effects
 - [ ] Options
 
+## 03/15/2020 - 04/12/2020
+
+### Michael Boyle
+
+#### Worked on:
+
+- Begin User Data Encryption
+- Fuzz Testing
+- Report
+
+#### Handling next:
+
+- Improved File Security
+
+### Kenneth Yamaguchi-Townsend
+
+#### Worked on:
+
+- Full Menu Implementation (Back End)
+- Basic User Account System (Back End)
+- Scoreboard Saving (Back End)
+
+#### Handling next:
+
+- Increased Validation Checks
+- Ingame Scoreboard
+- UI/HUD Improvements
+
+### Joshua Ducey
+
+#### Worked on:
+
+- Static Analysis
+- Report
+
+#### Handling next:
+
+- Projectile effects
+- SFX
+
+### Pauline Wu
+
+#### Worked on:
+
+- Fuzz Testing
+- Report
+
+#### Handling next:
+
+- Improved File Security
 
 ## 02/25/2020 - 03/15/2020
 

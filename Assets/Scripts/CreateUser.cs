@@ -4,19 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 using System;
 using System.Security.Cryptography;
 using System.Text;
-
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
 public class CreateUser : MonoBehaviour {
 
@@ -41,13 +31,6 @@ public class CreateUser : MonoBehaviour {
             }
             savedUser = "\nUx" + nameField.text;
             savedPassword = "\nPx" + passwordField.text;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            File.AppendAllText(path, savedUser);
-            File.AppendAllText(path, savedPassword);
-=======
-=======
->>>>>>> Stashed changes
             string hashedPassword;
             using (SHA256 sha256Hash = SHA256.Create())
             {
@@ -56,10 +39,6 @@ public class CreateUser : MonoBehaviour {
             }
             File.AppendAllText(path, savedUser);
             File.AppendAllText(path, hashedPassword);
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
             //Debug.Log("User Data Saved");
             //Load Main Menu
             //Defined in Unity SDK in Button Script
@@ -74,12 +53,6 @@ public class CreateUser : MonoBehaviour {
             file.Close();
             string path = Application.persistentDataPath
                        + "/Users.dat";
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            File.AppendAllText(path, savedPassword);
-=======
-=======
->>>>>>> Stashed changes
             string hashedPassword;
             using (SHA256 sha256Hash = SHA256.Create())
             {
@@ -87,20 +60,11 @@ public class CreateUser : MonoBehaviour {
                 Debug.Log(hashedPassword);
             }
             File.AppendAllText(path, hashedPassword);
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
             //Debug.Log("User Data Saved");
             //Load Main Menu
             SceneManager.LoadScene(sceneName);
         }
     }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 
     private static string GetHash(HashAlgorithm hashAlgorithm, string input)
     {
@@ -122,8 +86,4 @@ public class CreateUser : MonoBehaviour {
         // Return the hexadecimal string.
         return sBuilder.ToString();
     }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
