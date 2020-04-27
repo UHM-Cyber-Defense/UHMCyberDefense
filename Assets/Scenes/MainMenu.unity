@@ -705,18 +705,7 @@ GameObject:
   - component: {fileID: 1228936259}
   - component: {fileID: 1228936258}
   - component: {fileID: 1228936257}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
   - component: {fileID: 1228936260}
->>>>>>> Stashed changes
-=======
-  - component: {fileID: 1228936260}
->>>>>>> Stashed changes
-=======
-  - component: {fileID: 1228936260}
->>>>>>> Stashed changes
   m_Layer: 5
   m_Name: ScoreboardButton
   m_TagString: Untagged
@@ -781,15 +770,6 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1228936258}
   m_OnClick:
     m_PersistentCalls:
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      m_Calls: []
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       m_Calls:
       - m_Target: {fileID: 1228936260}
         m_MethodName: LoadScene
@@ -802,13 +782,6 @@ MonoBehaviour:
           m_StringArgument: ScoreboardScreen
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1228936258
@@ -844,14 +817,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1228936255}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 --- !u!114 &1228936260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,13 +828,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e4d863d1644e1a478c601c060424950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 --- !u!1 &1294687701
 GameObject:
   m_ObjectHideFlags: 0
