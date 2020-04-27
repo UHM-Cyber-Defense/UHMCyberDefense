@@ -6,7 +6,7 @@
 
 ## Technical Notes
 
-## Security
+### Security
 
 - User generated data (user name, password, scores) are stored in aAES encrypted files.
 - AES key is removed from system memory once program no longer needs it.
