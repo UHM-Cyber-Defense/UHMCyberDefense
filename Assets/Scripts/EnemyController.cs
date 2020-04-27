@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -60,7 +60,7 @@ public class EnemyController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         Vector3 pos = transform.position;
-        pos.z -= 0.03f;
+        pos.z -= 0.05f;
         if (Time.timeScale != 0)
         {
             transform.position = pos;
