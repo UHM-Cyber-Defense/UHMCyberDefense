@@ -2,7 +2,7 @@
 
 ## Installation
 
-- Windows: Double Click on UHMCD_Setup.exe. Follow installer directions.
+- Windows: Double Click on UHCDND_Setup.exe. Follow installer directions.
 
 ## Technical Notes
 
