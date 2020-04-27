@@ -2,7 +2,8 @@
 
 ## Installation
 
-- Windows: Double Click on UHCDND_Setup.exe. Follow installer directions.
+- Windows: Double click on UHCDND_Setup.exe. Follow installer directions.
+- Mac: Double click on Network.Defender.dmg. Move Network Defender.app into your Applications folder.
 
 ## Technical Notes
 
