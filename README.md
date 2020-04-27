@@ -1,34 +1,104 @@
 # UHMCyberDefense
 
-## What is complete so far:
+## Installation
 
-- [x] Placeholder models
-- [x] Player ship
-- [x] NPC ship
-- [x] Projectile
-- [x] Firewall
-- [x] Player movement
-- [x] Projectile physics
-- [x] Main Scene
-- [x] Spawn system
-- [x] NPC movement
-- [x] Health system
-- [x] UI
-- [x] Main Menu
-- [x] Pause Menu
-- [x] Scoreboard
-- [x] Accounts system
-- [x] SFX
+- Windows: Double Click on UHMCD_Setup.exe. Follow installer directions.
 
-## What is pending:
+## Technical Notes
 
-- [ ] Input Validation
-- [ ] Improved File Security
+### Security
 
-If time allows
+- User generated data (user name, password, scores) are stored in aAES encrypted files.
+- AES key is removed from system memory once program no longer needs it.
+- Additonal SHA256 password hashing.
+- Security features cause a 0.5-1.0 second hang on data access.
 
-- [ ] Projectile effects
-- [ ] Options
+### Minimum Specifications
+
+#### Windows
+
+- x86/x64 CPU with SSE2 Support
+- DX10/DX11/DX12 capable GPU
+
+#### Mac OS
+
+- x64 CPU with SSE2 Support
+- Metal Capable Intel and AMD GPUs
+
+## Developer Thoughts
+
+### Ken Townsend
+
+- Making even simple games is hard, even with an SDK to do all the heavy lifting.
+- One challenge was to find out what we can make secure
+- Another was getting our application to the point where we could work on the security aspect.
+- Even though the C# scripting was pretty simple in the end, figuring out what worked and how in Unity took time.
+- Checking and rechecking how it all connected in Unity to avoid small mistakes was tedious.
+- It is very easy to envision a games project that is beyond scope of your abilities and time constraints.
+
+## Repository
+
+- https://github.com/UHM-Cyber-Defense/UHMCyberDefense
+
+## Documentation
+
+## Final Release
+
+## Wiki
+
+- https://github.com/UHM-Cyber-Defense/UHMCyberDefense/wiki
+
+## 04/12/2020 - 04/26/2020
+
+### Michael Boyle
+
+#### Worked on:
+
+- Additional User Data Encryption
+- Security Analysis
+- Game Balance
+- Wiki
+- Report
+
+#### Handling next:
+
+### Kenneth Yamaguchi-Townsend
+
+#### Worked on:
+
+- Bug Fixing
+- Ingame Scoreboard
+- Updating Art Assets
+- Game Balance
+- Wiki
+- Report
+
+#### Handling next:
+
+### Joshua Ducey
+
+#### Worked on:
+
+- Security Analysis
+- QA Testing
+- Game Balance
+- Wiki
+- Report
+
+#### Handling next:
+
+### Pauline Wu
+
+#### Worked on:
+
+- SFX
+- Security Analysis
+- QA Testing
+- Game Balance
+- Wiki
+- Report
+
+#### Handling next:
 
 ## 03/15/2020 - 04/12/2020
 
