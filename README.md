@@ -30,6 +30,58 @@ If time allows
 - [ ] Projectile effects
 - [ ] Options
 
+## 04/12/2020 - 04/26/2020
+
+### Michael Boyle
+
+#### Worked on:
+
+- Additional User Data Encryption
+- Security Analysis
+- Game Balance
+- Wiki
+- Report
+
+#### Handling next:
+
+### Kenneth Yamaguchi-Townsend
+
+#### Worked on:
+
+- Bug Fixing
+- Ingame Scoreboard
+- Updating Art Assets
+- Game Balance
+- Wiki
+- Report
+
+#### Handling next:
+
+### Joshua Ducey
+
+#### Worked on:
+
+- Security Analysis
+- QA Testing
+- Game Balance
+- Wiki
+- Report
+
+#### Handling next:
+
+### Pauline Wu
+
+#### Worked on:
+
+- SFX
+- Security Analysis
+- QA Testing
+- Game Balance
+- Wiki
+- Report
+
+#### Handling next:
+
 ## 03/15/2020 - 04/12/2020
 
 ### Michael Boyle
