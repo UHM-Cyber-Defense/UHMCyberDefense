@@ -43,9 +43,15 @@
 
 - Even when the vision and the process seem simple in your mind, they can prove to be very difficult.
 - Actually applying the cryptography I have learned in other classes was fun.
-- I am curious to see if the security we implemented was enought to stop a seasoned hacker. 
-- Testing even the simplest aspects of a game can be time consuming and tedious. 
+- I am curious to see if the security we implemented was enought to stop a seasoned hacker.
+- Testing even the simplest aspects of a game can be time consuming and tedious.
 - Learning as we went was the most enjoyable and most difficult part of this project.
+
+### Joshua Ducey
+
+- Game development is hard.
+- Version control with Unity and Github is a pain.
+- The SDLC methodology is pretty tedious but I can see how it leads to secure, high-quality software.
 
 ## Repository
 
@@ -56,6 +62,7 @@
 ## Final Release
 
 ### Windows Version
+
 - https://github.com/UHM-Cyber-Defense/UHMCyberDefense/releases/tag/1.0
 
 ### Mac OS Version
