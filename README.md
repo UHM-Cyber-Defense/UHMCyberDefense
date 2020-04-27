@@ -53,6 +53,13 @@
 - Version control with Unity and Github is a pain.
 - The SDLC methodology is pretty tedious but I can see how it leads to secure, high-quality software.
 
+### Pauline Wu
+
+- It is nice to be able to learn new programming languages while also learn things related to software security.
+- There are lots of tests and analysis needs to be conducted for a newly created program.
+- Writing a detailed security program report is hard because there are lots of things need to be addressed.
+- Working on a team is much easier than do it individually.
+
 ## Repository
 
 - https://github.com/UHM-Cyber-Defense/UHMCyberDefense
