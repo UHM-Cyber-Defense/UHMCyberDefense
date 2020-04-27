@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -28,24 +28,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     void UpdateScore()
-<<<<<<< Updated upstream
     {
-<<<<<<< Updated upstream
-
-    }
-    public void SetScore(int scoreValue)
-    {
-        score += scoreValue;
-        UpdateScore();
-    }
-
-    void UpdateScore()
-    {
-=======
->>>>>>> Stashed changes
-=======
-    {
->>>>>>> Stashed changes
         scoreText.text = "Score: " + score;
     }
 }
