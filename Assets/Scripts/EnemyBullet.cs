@@ -1,16 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour {
 
     private WallHealth wHealth;
-<<<<<<< Updated upstream
-    int gunDamage = 1;
-    // Use this for initialization
-    void Start()
-    {
-=======
     public AudioClip wallImpact;
     int gunDamage = 1;
     AudioSource audio;
@@ -18,7 +12,6 @@ public class EnemyBullet : MonoBehaviour {
     void Start()
     {
         audio = GetComponent<AudioSource>();
->>>>>>> Stashed changes
         GameObject wallObject = GameObject.FindWithTag("Firewall");
         if (wallObject != null)
         {
