@@ -41,6 +41,14 @@ Download and double click on Network.Defender.dmg and move Network Defender.app 
 - Checking and rechecking how it all connected in Unity to avoid small mistakes was tedious.
 - It is very easy to envision a games project that is beyond scope of your abilities and time constraints.
 
+### Michael Boyle
+
+- Even when the vision and the process seem simple in your mind, they can prove to be very difficult.
+- Actually applying the cryptography I have learned in other classes was fun.
+- I am curious to see if the security we implemented was enought to stop a seasoned hacker. 
+- Testing even the simplest aspects of a game can be time consuming and tedious. 
+- Learning as we went was the most enjoyable and most difficult part of this project.
+
 ## Repository
 
 - https://github.com/UHM-Cyber-Defense/UHMCyberDefense
@@ -50,7 +58,7 @@ Download and double click on Network.Defender.dmg and move Network Defender.app 
 ## Final Release
 
 ### Windows Version
-- https://github.com/UHM-Cyber-Defense/UHMCyberDefense/releases/tag/1.0
+- https://github.com/UHM-Cyber-Defense/UHMCyberDefense/releases
 
 ### Mac OS Version
 
