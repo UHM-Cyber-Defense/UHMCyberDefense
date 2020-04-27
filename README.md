@@ -6,6 +6,16 @@
 
 ## Technical Notes
 
+- Minimum Specifications
+-- Windows
+--- x86/x64 CPU with SSE2 Support
+--- DX10/DX11/DX12 capable GPU
+-- Mac OS
+--- x64 CPU with SSE2 Support
+--- Metal Capable Intel and AMD GPUs
+
+- User generated data (user name, password, scores) are stored in aes encrypted files.
+
 ## Developer Thoughts
 
 ### Ken Townsend
