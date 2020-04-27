@@ -6,15 +6,24 @@
 
 ## Technical Notes
 
+## Security
+
+- User generated data (user name, password, scores) are stored in aAES encrypted files.
+- AES key is removed from system memory once program no longer needs it.
+- Additonal SHA256 password hashing.
+- Security features cause a 0.5-1.0 second hang on data access.
+
 ### Minimum Specifications
+
 #### Windows
+
 - x86/x64 CPU with SSE2 Support
 - DX10/DX11/DX12 capable GPU
+
 #### Mac OS
+
 - x64 CPU with SSE2 Support
 - Metal Capable Intel and AMD GPUs
-
-- User generated data (user name, password, scores) are stored in aes encrypted files.
 
 ## Developer Thoughts
 
