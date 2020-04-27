@@ -2,11 +2,20 @@
 
 ## Installation
 
-- Windows: Double Click on UHMCD_Setup.exe. Follow installer directions
+- Windows: Double Click on UHMCD_Setup.exe. Follow installer directions.
 
 ## Technical Notes
 
 ## Developer Thoughts
+
+### Ken Townsend
+
+- Making even simple games is hard, even with an SDK to do all the heavy lifting.
+- One challenge was to findout what we can make secure
+- Another was getting our application to the point where we could work on the security aspect.
+- Even though the C# scripting was pretty simple in the end, figuring out what worked and how in Unity took time.
+- Checking and rechecking how it all connected in Unity to avoid small mistakes was tedious.
+- It is very easy to envision a games project that is beyond scope of your abilities and time constraints.
 
 ## Repository
 
