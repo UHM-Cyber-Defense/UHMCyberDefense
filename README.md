@@ -65,6 +65,7 @@
 - https://github.com/UHM-Cyber-Defense/UHMCyberDefense
 
 ## Documentation
+- https://github.com/UHM-Cyber-Defense/UHMCyberDefense/blob/master/Assignment%205_%20SDLC_%20Release%20-%20Final%20Security%20Review%2C%20Incident%20Response%20Plan%2C%20Archive%20Report%2C%20User%20Guide.pdf
 
 ## Final Release
 
