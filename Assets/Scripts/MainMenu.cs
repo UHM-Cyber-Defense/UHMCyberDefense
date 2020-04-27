@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,13 +10,6 @@ public class MainMenu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         playerText.text = "Player: " + LoginPlayer.savedUser;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
 	
 	// Update is called once per frame
