@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -33,10 +33,6 @@ public class LoginPlayer : MonoBehaviour {
                 //Find User
                 if (line == "Ux" + nameField.text)
                 {
-                    //Debug.Log(lines[i]);
-                    //Check next line for password
-                    //Current line is i - 1, next line is i
-                    if (lines[i] == "Px" + passwordField.text)
                     Debug.Log(lines[i]);
                     //Check next line for password
                     //Current line is i - 1, next line is i
