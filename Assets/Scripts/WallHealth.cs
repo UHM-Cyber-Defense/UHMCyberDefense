@@ -46,6 +46,7 @@ public class WallHealth : MonoBehaviour {
     {
         foreach (GameObject g in GameOverObjects)
         {
+            Cursor.visible = true;
             g.SetActive(true);
         }
     }
@@ -54,6 +55,7 @@ public class WallHealth : MonoBehaviour {
     {
         foreach (GameObject g in GameOverObjects)
         {
+            Cursor.visible = false;
             g.SetActive(false);
         }
     }

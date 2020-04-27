@@ -6,13 +6,20 @@ using UnityEngine.UI;
 public class PauseScript : MonoBehaviour {
 
     GameObject[] PauseObjects;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         Time.timeScale = 1;
         PauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
         HidePaused();
-        Cursor.visible = false;
-	}
+        if (WallHealth.Health == 0)
+        {
+            Cursor.visible = true;
+        }
+        else
+        {
+            Cursor.visible = false;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -9,13 +9,15 @@ public class MainMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        Cursor.visible = true;
         playerText.text = "Player: " + LoginPlayer.savedUser;
+        //Debug.Log(LoginPlayer.savedUser);
     }
 	
 	// Update is called once per frame
 	void Update () {
-        //playerText.text = "Player: "+ LoginPlayer.savedUser;
-	}
+        Cursor.visible = true;
+    }
 
     public void StartGame(string sceneName)
     {
@@ -25,7 +27,7 @@ public class MainMenu : MonoBehaviour {
         }
         else
         {
-            Debug.Log("Not Logged In");
+            //Debug.Log("Not Logged In");
             playerText.text = "Login to Play!";
         }
     }
