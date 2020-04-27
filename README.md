@@ -1,6 +1,6 @@
 # UHMCyberDefense
 
-## Windows Installation Guide
+### Windows Installation Guide
 
 Double click on UHCDND_Setup.exe. Follow installer directions.
 
