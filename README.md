@@ -22,11 +22,8 @@
 
 ## What is pending:
 
-- [ ] Input Validation
-- [ ] Improved File Security
-
 If time allows
-
+- [ ] Input Validation
 - [ ] Projectile effects
 - [ ] Options
 
