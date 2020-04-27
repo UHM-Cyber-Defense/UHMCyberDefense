@@ -5,15 +5,13 @@
 - Windows: Double click on UHCDND_Setup.exe. Follow installer directions.
 - Mac: Double click on Network.Defender.dmg. Move Network Defender.app into your Applications folder.
 
-### Mac Installation Guide
-
-Download and double click on Network.Defender.dmg and move Network Defender.app into your Applications folder.
-
 ## Technical Notes
+
+- Unity SDK is required to edit, compile and run the source code.
 
 ### Security
 
-- User generated data (user name, password, scores) are stored in aAES encrypted files.
+- User generated data (user name, password, scores) are stored in AES encrypted files.
 - AES key is removed from system memory once program no longer needs it.
 - Additonal SHA256 password hashing.
 - Security features cause a 0.5-1.0 second hang on data access.
