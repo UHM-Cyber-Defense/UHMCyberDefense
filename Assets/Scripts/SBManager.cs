@@ -1,33 +1,5 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-using UnityEngine;
-
-public class SBManager : MonoBehaviour {
-
-    private ScoreBoard scoreBManager;
-	// Use this for initialization
-	void Start () {
-        GameObject sbManager = GameObject.FindWithTag("SBManager");
-        if (sbManager != null)
-        {
-            scoreBManager = sbManager.GetComponent<ScoreBoard>();
-        }
-        if (scoreBManager == null)
-        {
-            Debug.Log("Cannot find 'ScoreBoard' script");
-        }
-        scoreBManager.LoadScoreboard();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-=======
-=======
->>>>>>> Stashed changes
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
@@ -76,8 +48,4 @@ public class SBManager : MonoBehaviour {
             SBScoreText.text = scoreScore;
         }
     }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
