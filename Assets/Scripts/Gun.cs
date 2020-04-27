@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -43,10 +43,7 @@ public class Gun : MonoBehaviour
         {
             bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 6000);
         }
-<<<<<<< Updated upstream
-=======
         audio.clip = blasterSound;
         audio.Play();
->>>>>>> Stashed changes
     }
 }
