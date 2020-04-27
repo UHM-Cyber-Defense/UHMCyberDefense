@@ -1,17 +1,6 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 using System.Text.RegularExpressions;
->>>>>>> Stashed changes
-=======
-using System.Text.RegularExpressions;
->>>>>>> Stashed changes
-=======
-using System.Text.RegularExpressions;
->>>>>>> Stashed changes
 using UnityEngine;
 using UnityEngine.UI;
 using System;
@@ -22,21 +11,6 @@ using UnityEngine.SceneManagement;
 //NOT IMPLEMENTED
 public class ScoreBoard : MonoBehaviour {
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    public string userScore;
-    int scoreVal;
-    int tempVal;
-	// Use this for initialization
-	void Start () {
-		
-	}
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     private PlayerController player1;
     string userScore;
     string tempScore;
@@ -55,28 +29,8 @@ public class ScoreBoard : MonoBehaviour {
             Debug.Log("Cannot find 'PlayerController' script");
         }
     }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-<<<<<<< Updated upstream
-    /*public void SaveScoreboard()
-=======
-    public void SaveScoreboard()
->>>>>>> Stashed changes
-=======
 	
     public void SaveScoreboard()
->>>>>>> Stashed changes
-=======
-	
-    public void SaveScoreboard()
->>>>>>> Stashed changes
     {
         if (File.Exists(Application.persistentDataPath + "/Scoreboard.dat"))
         {
@@ -84,48 +38,13 @@ public class ScoreBoard : MonoBehaviour {
                        + "/Scoreboard.dat";
             int i = 0;
             string tempScore;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            string[] trimScore;
-            //Read file into string array
-            string[] lines = File.ReadAllLines(path);
-            userScore = LoginPlayer.savedUser + " " + playerScore.score.ToString();
-            tempVal = playerScore.score;
-            foreach (string line in lines)
-            {
-                trimScore = line.Split(new char[] { ' ' });
-                scoreVal = Convert.ToInt32(trimScore);
-                if (tempVal > scoreVal)
-                {
-                    tempScore = line;
-                    lines[i] = userScore;
-                    userScore = tempScore;
-                    tempVal = scoreVal;
-                    i++;
-                }
-            }
-            File.AppendAllText(path, "\n" + userScore);
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
             //Read file into string array
             string[] lines = File.ReadAllLines(path);
             userScore = player1.score.ToString() + " " + LoginPlayer.savedUser ;
             //Debug.Log("userScore is: " + userScore);
             tempVal = player1.score;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
             //This foreach loops goes through and sorts our new
             //score into the scoreboard
->>>>>>> Stashed changes
-=======
-            //This foreach loops goes through and sorts our new
-            //score into the scoreboard
->>>>>>> Stashed changes
             foreach (string line in lines)
             {
                 //trimScore = line.Split(new char[] { ' ' });
@@ -150,13 +69,6 @@ public class ScoreBoard : MonoBehaviour {
             file.Close();
             //Debug.Log("userScore is: " + userScore);
             File.AppendAllText(path, userScore);
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         }
         else
         {
@@ -166,33 +78,4 @@ public class ScoreBoard : MonoBehaviour {
             file.Close();
         }
     }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-    public void LoadScoreboard()
-    {
-        if (File.Exists(Application.persistentDataPath + "/Scoreboard.dat"))
-        {
-<<<<<<< Updated upstream
-            string path = Application.persistentDataPath
-                       + "/Scoreboard.dat";
-            string[] lines = File.ReadAllLines(path);
-            foreach (string line in lines)
-            {
-
-            }*/
-=======
-            string scoreBoard;
-            string path = Application.persistentDataPath
-                       + "/Scoreboard.dat";
-            string[] lines = File.ReadAllLines(path);
-            scoreBoard = lines [0].Replace("***", "\r\n");
-            SBText.text = scoreBoard;
-        }
-    }
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
