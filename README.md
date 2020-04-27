@@ -1,31 +1,24 @@
 # UHMCyberDefense
 
-## What is complete so far:
+## Installation
 
-- [x] Placeholder models
-- [x] Player ship
-- [x] NPC ship
-- [x] Projectile
-- [x] Firewall
-- [x] Player movement
-- [x] Projectile physics
-- [x] Main Scene
-- [x] Spawn system
-- [x] NPC movement
-- [x] Health system
-- [x] UI
-- [x] Main Menu
-- [x] Pause Menu
-- [x] Scoreboard
-- [x] Accounts system
-- [x] SFX
+- Windows: Double Click on UHMCD_Setup.exe. Follow installer directions
 
-## What is pending:
+## Technical Notes
 
-If time allows
-- [ ] Input Validation
-- [ ] Projectile effects
-- [ ] Options
+## Developer Thoughts
+
+## Repository
+
+- https://github.com/UHM-Cyber-Defense/UHMCyberDefense
+
+## Documentation
+
+## Final Release
+
+## Wiki
+
+- https://github.com/UHM-Cyber-Defense/UHMCyberDefense/wiki
 
 ## 04/12/2020 - 04/26/2020
 
