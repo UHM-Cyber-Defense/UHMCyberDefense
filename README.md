@@ -58,7 +58,7 @@ Download and double click on Network.Defender.dmg and move Network Defender.app 
 ## Final Release
 
 ### Windows Version
-- https://github.com/UHM-Cyber-Defense/UHMCyberDefense/releases
+- https://github.com/UHM-Cyber-Defense/UHMCyberDefense/releases/tag/1.0
 
 ### Mac OS Version
 
