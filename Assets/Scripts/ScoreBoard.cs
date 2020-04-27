@@ -53,12 +53,12 @@ public class ScoreBoard : MonoBehaviour {
                 //Debug.Log("scoreVal is: " + scoreVal);
                 if (tempVal > scoreVal)
                 {
-                    i++;
                     tempScore = line;
                     lines[i] = userScore;
                     //Debug.Log("lines[" + i + "] is: " + lines[i]);
                     userScore = tempScore;
                     tempVal = scoreVal;
+                    i++;
                 }
             }
             StreamWriter file = new StreamWriter(path);
@@ -73,7 +73,7 @@ public class ScoreBoard : MonoBehaviour {
         else
         {
             StreamWriter file = File.CreateText(Application.persistentDataPath + "/Scoreboard.dat");
-            userScore = LoginPlayer.savedUser + " " + playerScore.score.ToString();
+            userScore = player1.score.ToString() + " " + LoginPlayer.savedUser;
             file.WriteLine(userScore);
             file.Close();
         }

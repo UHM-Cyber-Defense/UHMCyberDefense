@@ -8,8 +8,7 @@ public class Gun : MonoBehaviour
     public Transform launchPosition;
     public AudioClip blasterSound;
     public float timeBullet = 0.0f;
-    public float timeRefire = 0.3f;
-    float timer;
+    public float timeRefire = 0.1f;
     AudioSource audio;
 
     // Use this for initialization
@@ -21,7 +20,6 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer = timer + Time.deltaTime;
         if (Input.GetMouseButtonDown(0))
         {
             if (!IsInvoking("FireBullet"))

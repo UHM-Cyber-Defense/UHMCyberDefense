@@ -39,13 +39,13 @@ public class EnemyBullet : MonoBehaviour {
     {
         if (other.gameObject.tag == "Firewall")
         {
+            audio.clip = wallImpact;
+            audio.Play();
             if (wHealth != null)
             {
                 wHealth.TakeDamage(gunDamage);
             }
             Destroy(gameObject);
-            audio.clip = wallImpact;
-            audio.Play();
         }
     }
 }

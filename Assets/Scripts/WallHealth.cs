@@ -21,7 +21,7 @@ public class WallHealth : MonoBehaviour {
         {
             Debug.Log("Cannot find 'ScoreBoard' script");
         }
-        Health = 500;
+        Health = 750;
         UpdateHealth();
         GameOverObjects = GameObject.FindGameObjectsWithTag("GameOver");
         HideGameOver();

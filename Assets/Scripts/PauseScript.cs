@@ -11,6 +11,7 @@ public class PauseScript : MonoBehaviour {
         Time.timeScale = 1;
         PauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
         HidePaused();
+        Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
@@ -22,10 +23,12 @@ public class PauseScript : MonoBehaviour {
             {
                 Time.timeScale = 0;
                 ShowPaused();
+                Cursor.visible = true;
             } else if (Time.timeScale == 0)
             {
                 Time.timeScale = 1;
                 HidePaused();
+                Cursor.visible = false;
             }
         }
 	}
@@ -36,6 +39,7 @@ public class PauseScript : MonoBehaviour {
         {
             Time.timeScale = 1;
             HidePaused();
+            Cursor.visible = false;
         }
     }
 

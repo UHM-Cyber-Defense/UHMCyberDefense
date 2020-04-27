@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour {
     void Start ()
     {
         audio = GetComponent<AudioSource>();
-        InvokeRepeating("CanShoot", Random.Range(4.0f, 10.0f), Random.Range(5.0f, 10.0f));
+        InvokeRepeating("CanShoot", Random.Range(3.0f, 6.0f), Random.Range(3.0f, 6.0f));
         GameObject wallObject = GameObject.FindWithTag("Firewall");
         if (wallObject != null)
         {
@@ -60,7 +60,7 @@ public class EnemyController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         Vector3 pos = transform.position;
-        pos.z -= 0.05f;
+        pos.z -= 0.06f;
         if (Time.timeScale != 0)
         {
             transform.position = pos;
@@ -71,13 +71,13 @@ public class EnemyController : MonoBehaviour {
     {
         if (other.gameObject.tag == "Firewall")
         {
+            audio.clip = wallImpact;
+            audio.Play();
             if (wHealth != null)
             {
                 wHealth.TakeDamage(damageValue);
             }
             Destroy(gameObject);
-            audio.clip = wallImpact;
-            audio.Play();
         }
     }
 }

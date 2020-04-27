@@ -26,14 +26,14 @@ public class OnHit : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Enemy")
+        audio.clip = enemyImpact;
+        audio.Play();
+        if (other.gameObject.tag == "Enemy")
         {
             //Debug.Log("HIT!");
             Destroy(other.gameObject);
             Destroy(gameObject);
             player1.SetScore(scoreValue);
-        }
-        audio.clip = enemyImpact;
-        audio.Play();
+        } 
     }
 }
